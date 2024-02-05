@@ -1,0 +1,102 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation Menu */
+  
+  nav {
+    background: #1b1b1b;
+    color: white;
+    display: flex;
+    justify-content: center; 
+  }
+
+  nav ul {
+    align-items: center;
+    display: flex;  
+    list-style: none;
+    margin: 0; 
+    padding: 10px;
+  }
+
+  #about p{
+    font-size: 21px;
+  }
+
+  .team img{
+    height:700px;
+    width:1000px;
+  }
+  
+  nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Header */
+  
+  header {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(bg.jpg);
+    background-position: center;
+    background-size: cover; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 400px;  
+    background-image: url("blur1.jpg");
+  }
+  
+  /* Sections */
+  
+  section {
+    padding: 50px 100px;
+    border:1px solid black;
+  }
+  
+  /* Form */
+  
+  form input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color:aliceblue;
+    border:2px solid black;
+  }
+  
+  button {
+    background:green;
+    border: none; 
+    color: white;
+    padding: 10px;
+  }
+
+
+  footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center; 
+  }
+  
+  /* Responsive */
+  
+  @media(max-width: 700px) {
+  
+    header {
+      height: 200px; 
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    section {
+      padding: 30px 20px; 
+    } 
+  
+  }
